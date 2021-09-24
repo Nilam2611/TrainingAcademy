@@ -1,7 +1,11 @@
 package com.model;
 
-public class Stud_test {
-public Stud_test(int studid, int testid, int marks) {
+public class StudentTest {
+	
+public StudentTest() {
+	
+}
+public StudentTest(int studid, int testid, int marks) {
 		super();
 		this.studid = studid;
 		this.testid = testid;

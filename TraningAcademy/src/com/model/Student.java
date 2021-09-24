@@ -1,6 +1,15 @@
 package com.model;
 
 public class Student {
+	
+	private int studentid ;
+	private String sname ;
+	private long mobileno;
+	private int batchid;
+	
+public Student() {
+}
+
 public Student(int studentid, String sname, long mobileno, int batchid) {
 		super();
 		this.studentid = studentid;
@@ -8,10 +17,7 @@ public Student(int studentid, String sname, long mobileno, int batchid) {
 		this.mobileno = mobileno;
 		this.batchid = batchid;
 	}
-private int studentid ;
-private String sname ;
-private long mobileno;
-private int batchid;
+
 public int getStudentid() {
 	return studentid;
 }
